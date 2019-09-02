@@ -263,7 +263,7 @@ function Install-Button{
         $Link= $Link +  "-vscode"
     }
     $Link = $Link + "/ninite.exe"
-    Set-Location = $env:APPDATA\..\Local\Temp\Ninite.txt
+    Set-Location = $env:APPDATA\..\Local\Temp\
     [System.Windows.Forms.MessageBox]::Show("Download wird gestartet","Ninite",1)
     wget $Link -OutFile 'Install.exe'
     .\Install.exe
