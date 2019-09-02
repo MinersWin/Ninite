@@ -1,6 +1,7 @@
 $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Panel]$Panel1 = $null
 [System.Windows.Forms.CheckBox]$CheckBox3 = $null
+[System.Windows.Forms.CheckBox]$CheckBox2 = $null
 [System.Windows.Forms.CheckBox]$CheckBox1 = $null
 [System.Windows.Forms.Label]$Label3 = $null
 [System.Windows.Forms.Panel]$Panel2 = $null
