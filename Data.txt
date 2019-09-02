@@ -1,0 +1,95 @@
+Chrome:							chrome
+Opera:							operaChromium
+Firefox:						firefox
+
+qBittorrent:						qbittorrent
+
+7-Zip:							7zip
+PeaZip:							peazip
+WinRar:							winrar
+
+Discord:						discord
+Skype:							skype
+Pidgin:							pidgin
+Thunderbird:						thunderbird
+Trillian:						trillian
+
+Dropbox:						dropbox
+Google Backup & Sync:					googlebackupandsync
+OneDrive:						onedrive
+SugarSync:						sugarsync
+
+iTunes:							itunes
+VLC:							vlc
+AIMP:							aimp
+foobar2000:						foobar
+Winamp:							winamp
+MusicBee:						musicbee
+Audacity:						audacity
+K-Lite Codecs:						klitecodecs
+GOM:							gom
+Spotify:						spotify
+CCCP:							cccp
+MediaMonkey:						mediamonkey
+HandBrake:						handbrake
+
+Java (AdoptOpenJDK) 8:					adoptjava8
+.NET 4.8:						.net4.8
+Silverlight:						silverlight
+Air:							air
+
+Evernote:						evernote
+Google Earth:						googleearth
+Steam:							steam
+KeePass 2:						keepass2
+Everything:						everything
+NV Access:						nvda
+
+Krita:							krita
+Blender:						blender
+Paint.NET:						paint.net
+GIMP:							gimp
+IrfanView:						irfanview
+XnView:							xnview
+Inkscape:						inkscape
+FastStone:						faststone
+Greenshot:						greenshot
+ShareX:							sharex
+
+Foxit Reader:						foxit
+LibreOffice:						libreoffice
+SumatraPDF:						sumatrapdf
+CutePDF:						cutepdf
+PDFCreator:						pdfcreator
+OpenOffice:						openoffice
+
+TeamViewer 14:						teamviewer14
+ImgBurn:						imgburn
+RealVNC:						realvnc
+TeraCopy:						teracopy
+CDBurnerXP:						cdburnerxp
+Revo:							revo
+Launchy:						launchy
+WinDirStat:						windirstat
+Glary:							glary
+InfraRecorder:						infrarecorder
+Classic Start						classicstart
+
+Essentials:						essentials
+Malwarebytes:						malwarebytes
+Avast:							avast
+AVG:							avg
+Spybot 2:						spybot2
+Avira:							avira
+SUPERAntiSpyware:					super
+
+Python:							python
+FileZilla:						filezilla
+Notepad++:						notepadplusplus
+JDK (AdoptOpenJDK) 8:					adoptjdk8
+JDK (Amazon Corretto) 8:				correttojdk8
+WinSCP:							winscp
+PuTTY:							putty
+WinMerge:						winmerge
+Eclipse:						eclipse
+Visual Studio Code:					vscode
