@@ -4,7 +4,7 @@ This is a small Ninite client written in PowerShell. You can choose the programs
 
 ## Getting Started
 
-Here's how you can do it: Click on ```Clone or Download```, then on Download Zip. Unpack the Zip on your desktop and double-click on ```Ninite.exe``` or ```4-3-Ninite.exe```, depending on whether you use a 4: 3 monitor or not.
+Here's how you can do it: Click on ```Clone or Download```, then on ```Download Zip```. Unpack the Zip on your desktop and double-click on ```Ninite.exe``` or ```4-3-Ninite.exe```, depending on whether you use a 4: 3 monitor or not.
 
 ### Prerequisites
 
