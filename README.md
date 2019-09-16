@@ -11,45 +11,9 @@ Here's how you can do it: Click on ```Clone or Download```, then on Download Zip
 What things you need to install the software and how to install them
 
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+PowerShell Core 5.0 (pre-installed in Windows 7 or higher)
+.Net-Framework 3.5 (in den meisten Windows 10 Versionen vorinstalliert)
+Internet Explorer 9 or higher
 ```
 
 ## Deployment
@@ -58,30 +22,23 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [PowerShell](https://github.com/PowerShell/PowerShell) - The Programming Language used
+* [ISESteroids](http://www.powertheshell.com/isesteroids/) - The Compiling Tool used
+* [Visual Studio Code](https://code.visualstudio.com) - The Code Editor used
+* [PowerShellProTools](https://ironmansoftware.com/powershell-pro-tools/) - Used to generate GUI and some other Features
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Moritz Mantel** - *Initial work* - [MinersWin](https://github.com/MinersWin)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/MinersWin/Ninite/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* We use the [Ninite.com](https://ninite.com) system
+* If you have problems with this tool, please do not turn to Ninite.com, but create an issue.
+* We do not cooperate with Ninite.com in any way.
