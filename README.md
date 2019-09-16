@@ -25,7 +25,7 @@ Add additional notes about how to deploy this on a live system
 * [PowerShell](https://github.com/PowerShell/PowerShell) - The Programming Language used
 * [ISESteroids](http://www.powertheshell.com/isesteroids/) - The Compiling Tool used
 * [Visual Studio Code](https://code.visualstudio.com) - The Code Editor used
-* [PowerShellProTools](https://ironmansoftware.com/powershell-pro-tools/) - Used to generate GUI and some other Features
+* [PowerShell Pro Tools](https://ironmansoftware.com/powershell-pro-tools/) - Used to generate GUI and some other Features
 
 ## Authors
 
