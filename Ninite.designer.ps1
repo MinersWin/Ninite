@@ -324,6 +324,8 @@ $Label3.UseCompatibleTextRendering = $true
 #Panel2
 #
 $Panel2.AutoScroll = $true
+$Panel2.BackColor = [System.Drawing.Color]::FromArgb(([System.Int32]([System.Byte][System.Byte]64)),([System.Int32]([System.Byte][System.Byte]63)),([System.Int32]([System.Byte][System.Byte]64)))
+
 $Panel2.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
 $Panel2.Controls.Add($Panel14)
 $Panel2.Controls.Add($Panel13)
@@ -1707,7 +1709,8 @@ $Button1.UseVisualStyleBackColor = $true
 #Form1
 #
 $Form1.AutoScroll = $true
-$Form1.BackColor = [System.Drawing.SystemColors]::ButtonShadow
+$Form1.BackColor = [System.Drawing.Color]::FromArgb(([System.Int32]([System.Byte][System.Byte]64)),([System.Int32]([System.Byte][System.Byte]64)),([System.Int32]([System.Byte][System.Byte]64)))
+
 $Form1.ClientSize = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]809,[System.Int32]651))
 $Form1.Controls.Add($Button2)
 $Form1.Controls.Add($Panel2)
