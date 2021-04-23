@@ -17,10 +17,6 @@ Internet Explorer 9 or higher
 ```
 Powershell Installation for Win 7/8/8.1: https://forum.thegeekfreaks.de/forum/index.php?thread/93-faq-das-tuningpack-startet-nicht-ich-nutze-windows-7-8-8-1/
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [PowerShell](https://github.com/PowerShell/PowerShell) - The Programming Language used
