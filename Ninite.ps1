@@ -10,253 +10,280 @@ $Button1.Add_Click{(Install-Button)}
 
 function Install-Button{
     $Link = "https://ninite.com/"
-    if ($CheckBox1.Checked){
+    if ($CheckBoxChrome.Checked){
         $Link= $Link +  "-chrome"
     }
-    if ($CheckBox2.Checked){
+    if ($CheckBoxoperaChromium.Checked){
         $Link= $Link +  "-operaChromium"
     }
-    if ($CheckBox3.Checked){
+    if ($CheckBoxfirefox.Checked){
         $Link= $Link +  "-firefox"
     }
-    if ($CheckBox4.Checked){
+    if ($CheckBoxqbittorrent.Checked){
         $Link= $Link +  "-qbittorrent"
     }
-    if ($CheckBox5.Checked){
+    if ($CheckBox7zip.Checked){
         $Link= $Link +  "-7zip"
     }
-    if ($CheckBox6.Checked){
+    if ($CheckBoxpeazip.Checked){
         $Link= $Link +  "-peazip"
     }
-    if ($CheckBox7.Checked){
+    if ($CheckBoxwinrar.Checked){
         $Link= $Link +  "-winrar"
     }
-    if ($CheckBox8.Checked){
+    if ($CheckBoxdiscord.Checked){
         $Link= $Link +  "-discord"
     }
-    if ($CheckBox9.Checked){
+    if ($CheckBoxskype.Checked){
         $Link= $Link +  "-skype"
     }
-    if ($CheckBox10.Checked){
+    if ($CheckBoxpidgin.Checked){
         $Link= $Link +  "-pidgin"
     }
-    if ($CheckBox11.Checked){
+    if ($CheckBoxthunderbird.Checked){
         $Link= $Link +  "-thunderbird"
     }
-    if ($CheckBox12.Checked){
+    if ($CheckBoxtrillian.Checked){
         $Link= $Link +  "-trillian"
     }
-    if ($CheckBox13.Checked){
+    if ($CheckBoxdropbox.Checked){
         $Link= $Link +  "-dropbox"
     }
-    if ($CheckBox14.Checked){
+    if ($CheckBoxgooglebackupandsync.Checked){
         $Link= $Link +  "-googlebackupandsync"
     }
-    if ($CheckBox15.Checked){
+    if ($CheckBoxonedrive.Checked){
         $Link= $Link +  "-onedrive"
     }
-    if ($CheckBox16.Checked){
+    if ($CheckBoxsugarsync.Checked){
         $Link= $Link +  "-sugarsync"
     }
-    if ($CheckBox17.Checked){
+    if ($CheckBoxitunes.Checked){
         $Link= $Link +  "-itunes"
     }
-    if ($CheckBox18.Checked){
+    if ($CheckBoxvlc.Checked){
         $Link= $Link +  "-vlc"
     }
-    if ($CheckBox19.Checked){
+    if ($CheckBoxaimp.Checked){
         $Link= $Link +  "-aimp"
     }
-    if ($CheckBox20.Checked){
+    if ($CheckBoxfoobar.Checked){
         $Link= $Link +  "-foobar"
     }
-    if ($CheckBox21.Checked){
+    if ($CheckBoxwinamp.Checked){
         $Link= $Link +  "-winamp"
     }
-    if ($CheckBox22.Checked){
+    if ($CheckBoxmusicbee.Checked){
         $Link= $Link +  "-musicbee"
     }
-    if ($CheckBox23.Checked){
+    if ($CheckBoxaudacity.Checked){
         $Link= $Link +  "-audacity"
     }
-    if ($CheckBox24.Checked){
+    if ($CheckBoxklitecodecs.Checked){
         $Link= $Link +  "-klitecodecs"
     }
-    if ($CheckBox25.Checked){
+    if ($CheckBoxgom.Checked){
         $Link= $Link +  "-gom"
     }
-    if ($CheckBox26.Checked){
+    if ($CheckBoxspotify.Checked){
         $Link= $Link +  "-spotify"
     }
-    if ($CheckBox27.Checked){
+    if ($CheckBoxcccp.Checked){
         $Link= $Link +  "-cccp"
     }
-    if ($CheckBox28.Checked){
+    if ($CheckBoxmediamonkey.Checked){
         $Link= $Link +  "-mediamonkey"
     }
-    if ($CheckBox29.Checked){
+    if ($CheckBoxhandbrake.Checked){
         $Link= $Link +  "-handbrake"
     }
-    if ($CheckBox31.Checked){
+    if ($CheckBoxadoptjava8.Checked){
         $Link= $Link +  "-adoptjava8"
     }
-    if ($CheckBox33.Checked){
+    if ($CheckBoxadoptjavax8.Checked){
+        $Link= $Link +  "-adoptjavax8"
+    }
+    if ($CheckBoxadoptjavax11.Checked){
+        $Link= $Link +  "-adoptjavax11"
+    }
+    if ($CheckBoxnet48.Checked){
         $Link= $Link +  "-.net-4.8"
     }
-    if ($CheckBox34.Checked){
+    if ($CheckBoxsilverlight.Checked){
         $Link= $Link +  "-silverlight"
     }
-    if ($CheckBox35.Checked){
+    if ($CheckBoxair.Checked){
         $Link= $Link +  "-air"
     }
-    if ($CheckBox36.Checked){
+    if ($CheckBoxevernote.Checked){
         $Link= $Link +  "-evernote"
     }
-    if ($CheckBox37.Checked){
+    if ($CheckBoxgoogleearth.Checked){
         $Link= $Link +  "-googleearth"
     }
-    if ($CheckBox38.Checked){
+    if ($CheckBoxsteam.Checked){
         $Link= $Link +  "-steam"
     }
-    if ($CheckBox39.Checked){
+    if ($CheckBoxkeepass2.Checked){
         $Link= $Link +  "-keepass2"
     }
-    if ($CheckBox40.Checked){
+    if ($CheckBoxeverything.Checked){
         $Link= $Link +  "-everything"
     }
-    if ($CheckBox41.Checked){
+    if ($CheckBoxnvda.Checked){
         $Link= $Link +  "-nvda"
     }
-    if ($CheckBox42.Checked){
+    if ($CheckBoxkrita.Checked){
         $Link= $Link +  "-krita"
     }
-    if ($CheckBox43.Checked){
+    if ($CheckBoxblender.Checked){
         $Link= $Link +  "-blender"
     }
-    if ($CheckBox44.Checked){
+    if ($CheckBoxpaintnet.Checked){
         $Link= $Link +  "-paint.net"
     }
-    if ($CheckBox45.Checked){
+    if ($CheckBoxgimp.Checked){
         $Link= $Link +  "-gimp"
     }
-    if ($CheckBox46.Checked){
+    if ($CheckBoxirfanview.Checked){
         $Link= $Link +  "-irfanview"
     }
-    if ($CheckBox47.Checked){
+    if ($CheckBoxxnview.Checked){
         $Link= $Link +  "-xnview"
     }
-    if ($CheckBox48.Checked){
+    if ($CheckBoxinkscape.Checked){
         $Link= $Link +  "-inkscape"
     }
-    if ($CheckBox49.Checked){
+    if ($CheckBoxfaststone.Checked){
         $Link= $Link +  "-faststone"
     }
-    if ($CheckBox50.Checked){
+    if ($CheckBoxgreenshot.Checked){
         $Link= $Link +  "-greenshot"
     }
-    if ($CheckBox51.Checked){
+    if ($CheckBoxsharex.Checked){
         $Link= $Link +  "-sharex"
     }
-    if ($CheckBox52.Checked){
+    if ($CheckBoxfoxit.Checked){
         $Link= $Link +  "-foxit"
     }
-    if ($CheckBox53.Checked){
+    if ($CheckBoxlibreoffice.Checked){
         $Link= $Link +  "-libreoffice"
     }
-    if ($CheckBox54.Checked){
+    if ($CheckBoxsumatrapdf.Checked){
         $Link= $Link +  "-sumatrapdf"
     }
-    if ($CheckBox55.Checked){
+    if ($CheckBoxcutepdf.Checked){
         $Link= $Link +  "-cutepdf"
     }
-    if ($CheckBox56.Checked){
+    if ($CheckBoxpdfcreator.Checked){
         $Link= $Link +  "-pdfcreator"
     }
-    if ($CheckBox57.Checked){
+    if ($CheckBoxopenoffice.Checked){
         $Link= $Link +  "-openoffice"
     }
-    if ($CheckBox58.Checked){
+    if ($CheckBoxteamviewer14.Checked){
         $Link= $Link +  "-teamviewer14"
     }
-    if ($CheckBox59.Checked){
+    if ($CheckBoxteamviewer15.Checked){
+        $Link= $Link +  "-teamviewer15"
+    }
+    if ($CheckBoximgburn.Checked){
         $Link= $Link +  "-imgburn"
     }
-    if ($CheckBox60.Checked){
+    if ($CheckBoxrealvnc.Checked){
         $Link= $Link +  "-realvnc"
     }
-    if ($CheckBox61.Checked){
+    if ($CheckBoxteracopy.Checked){
         $Link= $Link +  "-teracopy"
     }
-    if ($CheckBox62.Checked){
+    if ($CheckBoxcdburnerxp.Checked){
         $Link= $Link +  "-cdburnerxp"
     }
-    if ($CheckBox63.Checked){
+    if ($CheckBoxrevo.Checked){
         $Link= $Link +  "-revo"
     }
-    if ($CheckBox64.Checked){
+    if ($CheckBoxlaunchy.Checked){
         $Link= $Link +  "-launchy"
     }
-    if ($CheckBox65.Checked){
+    if ($CheckBoxwindirstat.Checked){
         $Link= $Link +  "-windirstat"
     }
-    if ($CheckBox66.Checked){
+    if ($CheckBoxglary.Checked){
         $Link= $Link +  "-glary"
     }
-    if ($CheckBox67.Checked){
+    if ($CheckBoxinfrarecorder.Checked){
         $Link= $Link +  "-infrarecorder"
     }
-    if ($CheckBox68.Checked){
+    if ($CheckBoxclassicstart.Checked){
         $Link= $Link +  "-classicstart"
     }
-    if ($CheckBox69.Checked){
+    if ($CheckBoxessentials.Checked){
         $Link= $Link +  "-essentials"
     }
-    if ($CheckBox70.Checked){
+    if ($CheckBoxmalwarebytes.Checked){
         $Link= $Link +  "-malwarebytes"
     }
-    if ($CheckBox71.Checked){
+    if ($CheckBoxavast.Checked){
         $Link= $Link +  "-avast"
     }
-    if ($CheckBox72.Checked){
+    if ($CheckBoxavg.Checked){
         $Link= $Link +  "-avg"
     }
-    if ($CheckBox73.Checked){
+    if ($CheckBoxspybot2.Checked){
         $Link= $Link +  "-spybot2"
     }
-    if ($CheckBox74.Checked){
+    if ($CheckBoxavira.Checked){
         $Link= $Link +  "-avira"
     }
-    if ($CheckBox75.Checked){
+    if ($CheckBoxsuper.Checked){
         $Link= $Link +  "-super"
     }
-    if ($CheckBox76.Checked){
+    if ($CheckBoxphyton.Checked){
         $Link= $Link +  "-python"
     }
-    if ($CheckBox77.Checked){
+    if ($CheckBoxphyton3.Checked){
+        $Link= $Link +  "-python3"
+    }
+    if ($CheckBoxpythonx3.Checked){
+        $Link= $Link +  "-pythonx3"
+    }
+    if ($CheckBoxfilezilla.Checked){
         $Link= $Link +  "-filezilla"
     }
-    if ($CheckBox78.Checked){
+    if ($CheckBoxnotepadplusplus.Checked){
         $Link= $Link +  "-notepadplusplus"
     }
-    if ($CheckBox80.Checked){
+    if ($CheckBoxadoptjava8.Checked){
         $Link= $Link +  "-adoptjdk8"
     }
-    if ($CheckBox79.Checked){
+    if ($CheckBoxadoptjavax8.Checked){
+        $Link= $Link +  "-adoptjdkx8"
+    }
+    if ($CheckBoxadoptjavax11.Checked){
+        $Link= $Link +  "-adoptjdkx11"
+    }
+    if ($CheckBoxcorrettojdk8.Checked){
         $Link= $Link +  "-correttojdk8"
     }
-    if ($CheckBox81.Checked){
+    if ($CheckBoxcorrettojdkx8.Checked){
+        $Link= $Link +  "-correttojdkx8"
+    }
+    if ($CheckBoxcorrettojdkx11.Checked){
+        $Link= $Link +  "-correttojdkx11"
+    }
+    if ($CheckBoxwinscp.Checked){
         $Link= $Link +  "-winscp"
     }
-    if ($CheckBox82.Checked){
+    if ($CheckBoxputty.Checked){
         $Link= $Link +  "-putty"
     }
-    if ($CheckBox83.Checked){
+    if ($CheckBoxwinmerge.Checked){
         $Link= $Link +  "-winmerge"
     }
-    if ($CheckBox84.Checked){
+    if ($CheckBoxeclipse.Checked){
         $Link= $Link +  "-eclipse"
     }
-    if ($CheckBox85.Checked){
+    if ($CheckBoxvscode.Checked){
         $Link= $Link +  "-vscode"
     }
     $Link = $Link + "/ninite.exe"
@@ -270,5 +297,7 @@ function Install-Button{
     Write-Host "Starting Installation"
     .\Install.exe
 }
+
+$tooltip = New-Object System.Windows.Forms.ToolTip
 
 $Form1.ShowDialog()
