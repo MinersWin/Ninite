@@ -261,7 +261,7 @@ function Install-Button{
     }
     $Link = $Link + "/ninite.exe"
     Write-Host "Ninite Link: $($Link)"
-    
+
     [System.Windows.Forms.MessageBox]::Show("Download wird gestartet","Ninite",1)
     Write-Host "Starting Installer Download"
     wget $Link -OutFile 'Install.exe'
