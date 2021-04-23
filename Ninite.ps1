@@ -1,7 +1,4 @@
 Add-Type -AssemblyName System.Windows.Forms
-$Panel13_Paint = {
-}
-Add-Type -AssemblyName System.Windows.Forms
 . (Join-Path $PSScriptRoot 'Ninite.designer.ps1')
 
 #Close button
@@ -263,8 +260,14 @@ function Install-Button{
         $Link= $Link +  "-vscode"
     }
     $Link = $Link + "/ninite.exe"
+    Write-Host "Ninite Link: $($Link)"
+    
     [System.Windows.Forms.MessageBox]::Show("Download wird gestartet","Ninite",1)
+    Write-Host "Starting Installer Download"
     wget $Link -OutFile 'Install.exe'
+    Write-Host "Done"
+
+    Write-Host "Starting Installation"
     .\Install.exe
 }
 
