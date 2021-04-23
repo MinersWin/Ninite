@@ -69,14 +69,6 @@ IMAGING:
 50	Greenshot:						greenshot                               Screenshot Tool
 51	ShareX:							sharex                                  Screenshot Uploader
 
-DOCUMENTS:
-52	Foxit Reader:					foxit                                   Alternative PDF Reader
-53	LibreOffice:					libreoffice                             Free Office Suite (JRE recommended)
-54	SumatraPDF:						sumatrapdf                              Lightweight PDF Reader
-55	CutePDF:						cutepdf                                 Print Documents as PDF Files
-56	PDFCreator (no support):		pdfcreator                              NO SUPPORT
-57	OpenOffice:						openoffice                              Free Office Suite (JRE recommended)
-
 UTILITIES:
 58	TeamViewer 14 (no support): 	teamviewer14                            Remote Access Tool V. 14
     TeamViewer 15:                  teamviewer15                            Remote Access Tool V. 15
@@ -118,3 +110,11 @@ DEVELOPER TOOLS
 83	WinMerge:						winmerge                                Compare and Merge Files
 84	Eclipse:						eclipse                                 IDE for Java (requires Java)
 85	Visual Studio Code:				vscode                                  Programmer's Editor
+
+DOCUMENTS:
+52	Foxit Reader:					foxit                                   Alternative PDF Reader
+53	LibreOffice:					libreoffice                             Free Office Suite (JRE recommended)
+54	SumatraPDF:						sumatrapdf                              Lightweight PDF Reader
+55	CutePDF:						cutepdf                                 Print Documents as PDF Files
+56	PDFCreator (no support):		pdfcreator                              NO SUPPORT
+57	OpenOffice:						openoffice                              Free Office Suite (JRE recommended)
