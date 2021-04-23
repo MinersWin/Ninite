@@ -4,7 +4,7 @@ This is a small Ninite client written in PowerShell. You can choose the programs
 
 ## Getting Started
 
-Here's how you can do it: Click on ```Clone or Download```, then on ```Download Zip```. Unpack the Zip on your desktop and double-click on ```Ninite.exe``` or ```4-3-Ninite.exe```, depending on whether you use a 4: 3 monitor or not.
+Here's how you can do it: Click on ```Clone or Download```, then on ```Download Zip```. Unpack the Zip on your desktop and double-click on ```Ninite.exe```.
 
 ### Prerequisites
 
@@ -15,6 +15,7 @@ PowerShell Core 5.0 (pre-installed in Windows 7 or higher)
 .Net-Framework 3.5 (in den meisten Windows 10 Versionen vorinstalliert)
 Internet Explorer 9 or higher
 ```
+Powershell Installation for Win 7/8/8.1: https://forum.thegeekfreaks.de/forum/index.php?thread/93-faq-das-tuningpack-startet-nicht-ich-nutze-windows-7-8-8-1/
 
 ## Deployment
 
