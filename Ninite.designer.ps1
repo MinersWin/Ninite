@@ -5,8 +5,6 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBox1 = $null
 [System.Windows.Forms.Label]$Label3 = $null
 [System.Windows.Forms.Panel]$Panel2 = $null
-[System.Windows.Forms.Button]$Button2 = $null
-[System.Windows.Forms.Button]$Button1 = $null
 [System.Windows.Forms.Panel]$Panel14 = $null
 [System.Windows.Forms.CheckBox]$CheckBox85 = $null
 [System.Windows.Forms.CheckBox]$CheckBox84 = $null
@@ -113,16 +111,17 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Label]$Label4 = $null
 [System.Windows.Forms.Label]$Label2 = $null
 [System.Windows.Forms.Label]$Label1 = $null
+[System.Windows.Forms.Button]$Button2 = $null
+[System.Windows.Forms.Button]$Button1 = $null
 function InitializeComponent
 {
+$resources = . (Join-Path $PSScriptRoot 'ninite.resources.ps1')
 $Panel1 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBox3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBox2 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBox1 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label3 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel2 = (New-Object -TypeName System.Windows.Forms.Panel)
-$Button2 = (New-Object -TypeName System.Windows.Forms.Button)
-$Button1 = (New-Object -TypeName System.Windows.Forms.Button)
 $Panel14 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBox85 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBox84 = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -229,6 +228,8 @@ $CheckBox4 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label4 = (New-Object -TypeName System.Windows.Forms.Label)
 $Label2 = (New-Object -TypeName System.Windows.Forms.Label)
 $Label1 = (New-Object -TypeName System.Windows.Forms.Label)
+$Button2 = (New-Object -TypeName System.Windows.Forms.Button)
+$Button1 = (New-Object -TypeName System.Windows.Forms.Button)
 $Panel1.SuspendLayout()
 $Panel2.SuspendLayout()
 $Panel14.SuspendLayout()
@@ -298,9 +299,8 @@ $Label3.UseCompatibleTextRendering = $true
 #
 #Panel2
 #
+$Panel2.AutoScroll = $true
 $Panel2.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
-$Panel2.Controls.Add($Button2)
-$Panel2.Controls.Add($Button1)
 $Panel2.Controls.Add($Panel14)
 $Panel2.Controls.Add($Panel13)
 $Panel2.Controls.Add($Panel12)
@@ -318,28 +318,8 @@ $Panel2.Controls.Add($Label1)
 $Panel2.Controls.Add($Panel1)
 $Panel2.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]12,[System.Int32]12))
 $Panel2.Name = [System.String]'Panel2'
-$Panel2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]1283,[System.Int32]501))
+$Panel2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]1458,[System.Int32]466))
 $Panel2.TabIndex = [System.Int32]1
-#
-#Button2
-#
-$Button2.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]1203,[System.Int32]405))
-$Button2.Name = [System.String]'Button2'
-$Button2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]75,[System.Int32]23))
-$Button2.TabIndex = [System.Int32]16
-$Button2.Text = [System.String]'Close'
-$Button2.UseCompatibleTextRendering = $true
-$Button2.UseVisualStyleBackColor = $true
-#
-#Button1
-#
-$Button1.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]1203,[System.Int32]453))
-$Button1.Name = [System.String]'Button1'
-$Button1.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]75,[System.Int32]23))
-$Button1.TabIndex = [System.Int32]15
-$Button1.Text = [System.String]'Install'
-$Button1.UseCompatibleTextRendering = $true
-$Button1.UseVisualStyleBackColor = $true
 #
 #Panel14
 #
@@ -715,7 +695,7 @@ $Panel11.Controls.Add($CheckBox54)
 $Panel11.Controls.Add($CheckBox53)
 $Panel11.Controls.Add($CheckBox52)
 $Panel11.Controls.Add($Label12)
-$Panel11.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]963,[System.Int32]286))
+$Panel11.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]1283,[System.Int32]43))
 $Panel11.Name = [System.String]'Panel11'
 $Panel11.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]209))
 $Panel11.TabIndex = [System.Int32]11
@@ -1458,11 +1438,36 @@ $Label1.TabIndex = [System.Int32]1
 $Label1.Text = [System.String]'Ninite Client'
 $Label1.UseCompatibleTextRendering = $true
 #
+#Button2
+#
+$Button2.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]12,[System.Int32]485))
+$Button2.Name = [System.String]'Button2'
+$Button2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]75,[System.Int32]23))
+$Button2.TabIndex = [System.Int32]16
+$Button2.Text = [System.String]'Close'
+$Button2.UseCompatibleTextRendering = $true
+$Button2.UseVisualStyleBackColor = $true
+#
+#Button1
+#
+$Button1.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]95,[System.Int32]485))
+$Button1.Name = [System.String]'Button1'
+$Button1.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]75,[System.Int32]23))
+$Button1.TabIndex = [System.Int32]15
+$Button1.Text = [System.String]'Install'
+$Button1.UseCompatibleTextRendering = $true
+$Button1.UseVisualStyleBackColor = $true
+#
 #Form1
 #
-$Form1.ClientSize = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]1304,[System.Int32]520))
+$Form1.AutoScroll = $true
+$Form1.ClientSize = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]822,[System.Int32]535))
+$Form1.Controls.Add($Button2)
 $Form1.Controls.Add($Panel2)
+$Form1.Controls.Add($Button1)
+$Form1.Icon = ([System.Drawing.Icon]$resources.'$this.Icon')
 $Form1.Text = [System.String]'Ninite Client by MinersWin'
+$Form1.add_Load($Form1_Load)
 $Panel1.ResumeLayout($false)
 $Panel2.ResumeLayout($false)
 $Panel14.ResumeLayout($false)
@@ -1485,8 +1490,6 @@ Add-Member -InputObject $Form1 -Name CheckBox2 -Value $CheckBox2 -MemberType Not
 Add-Member -InputObject $Form1 -Name CheckBox1 -Value $CheckBox1 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label3 -Value $Label3 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel2 -Value $Panel2 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name Button2 -Value $Button2 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name Button1 -Value $Button1 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel14 -Value $Panel14 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBox85 -Value $CheckBox85 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBox84 -Value $CheckBox84 -MemberType NoteProperty
@@ -1593,5 +1596,7 @@ Add-Member -InputObject $Form1 -Name CheckBox4 -Value $CheckBox4 -MemberType Not
 Add-Member -InputObject $Form1 -Name Label4 -Value $Label4 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label2 -Value $Label2 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label1 -Value $Label1 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name Button2 -Value $Button2 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name Button1 -Value $Button1 -MemberType NoteProperty
 }
 . InitializeComponent
