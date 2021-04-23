@@ -109,7 +109,7 @@ DEVELOPER TOOLS
 78	Notepad++:						notepadplusplus                         Programmer's Editor
     JDK (AdoptOpenJDK) x64 8:	    adoptjdkx8                              64-bit Java Development Kit 8
 80	JDK (AdoptOpenJDK) 8:			adoptjdk8                               Java Development Kit 8
-    JDK (AdoptOpenJDK) x64 11.0.11  adoptjdkx11                             64-bit Java Development Kit 11
+    JDK (AdoptOpenJDK) x64 11       adoptjdkx11                             64-bit Java Development Kit 11
     JDK (Amazon Corretto) x64 8:	correttojdkx8                           64-bit Java Development Kit 8
 79	JDK (Amazon Corretto) 8:		correttojdk8                            Java Development Kit 8
     JDK (Amazon Corretto) x64 11    correttojdkx11                          64-bit Java Development Kit 11
