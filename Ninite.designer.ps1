@@ -344,7 +344,7 @@ $Panel2.Controls.Add($Label1)
 $Panel2.Controls.Add($Panel1)
 $Panel2.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]12,[System.Int32]12))
 $Panel2.Name = [System.String]'Panel2'
-$Panel2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]1507,[System.Int32]582))
+$Panel2.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]1522,[System.Int32]582))
 $Panel2.TabIndex = [System.Int32]1
 $Panel2.add_Paint($Panel2_Paint)
 #
@@ -411,7 +411,7 @@ $CheckBoxadoptjdkx112.UseVisualStyleBackColor = $true
 $CheckBoxadoptjdkx82.ForeColor = [System.Drawing.Color]::White
 $CheckBoxadoptjdkx82.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]175))
 $CheckBoxadoptjdkx82.Name = [System.String]'CheckBoxadoptjdkx82'
-$CheckBoxadoptjdkx82.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]162,[System.Int32]24))
+$CheckBoxadoptjdkx82.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]184,[System.Int32]24))
 $CheckBoxadoptjdkx82.TabIndex = [System.Int32]14
 $CheckBoxadoptjdkx82.Text = [System.String]'JDK (AdoptOpenJDK) x64 8'
 $CheckBoxadoptjdkx82.UseCompatibleTextRendering = $true
@@ -511,7 +511,7 @@ $CheckBox79.UseVisualStyleBackColor = $true
 $CheckBoxadoptjdk82.ForeColor = [System.Drawing.Color]::White
 $CheckBoxadoptjdk82.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]205))
 $CheckBoxadoptjdk82.Name = [System.String]'CheckBoxadoptjdk82'
-$CheckBoxadoptjdk82.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]24))
+$CheckBoxadoptjdk82.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]184,[System.Int32]24))
 $CheckBoxadoptjdk82.TabIndex = [System.Int32]5
 $CheckBoxadoptjdk82.Text = [System.String]'JDK (AdoptOpenJDK) 8'
 $CheckBoxadoptjdk82.UseCompatibleTextRendering = $true
@@ -1711,7 +1711,7 @@ $Button1.UseVisualStyleBackColor = $true
 $Form1.AutoScroll = $true
 $Form1.BackColor = [System.Drawing.Color]::FromArgb(([System.Int32]([System.Byte][System.Byte]64)),([System.Int32]([System.Byte][System.Byte]64)),([System.Int32]([System.Byte][System.Byte]64)))
 
-$Form1.ClientSize = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]809,[System.Int32]651))
+$Form1.ClientSize = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]724,[System.Int32]651))
 $Form1.Controls.Add($Button2)
 $Form1.Controls.Add($Panel2)
 $Form1.Controls.Add($Button1)
