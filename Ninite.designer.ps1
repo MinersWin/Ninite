@@ -1,5 +1,6 @@
 $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Panel]$Panel1 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxedge = $null
 [System.Windows.Forms.CheckBox]$CheckBoxfirefox = $null
 [System.Windows.Forms.CheckBox]$CheckBoxoperaChromium = $null
 [System.Windows.Forms.CheckBox]$CheckBoxChrome = $null
@@ -250,6 +251,7 @@ $Label2 = (New-Object -TypeName System.Windows.Forms.Label)
 $Label1 = (New-Object -TypeName System.Windows.Forms.Label)
 $Button2 = (New-Object -TypeName System.Windows.Forms.Button)
 $Button1 = (New-Object -TypeName System.Windows.Forms.Button)
+$CheckBoxedge = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Panel1.SuspendLayout()
 $Panel2.SuspendLayout()
 $Panel14.SuspendLayout()
@@ -269,13 +271,14 @@ $Form1.SuspendLayout()
 #Panel1
 #
 $Panel1.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
+$Panel1.Controls.Add($CheckBoxedge)
 $Panel1.Controls.Add($CheckBoxfirefox)
 $Panel1.Controls.Add($CheckBoxoperaChromium)
 $Panel1.Controls.Add($CheckBoxChrome)
 $Panel1.Controls.Add($Label3)
 $Panel1.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]43))
 $Panel1.Name = [System.String]'Panel1'
-$Panel1.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]117))
+$Panel1.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]143))
 $Panel1.TabIndex = [System.Int32]0
 #
 #CheckBoxfirefox
@@ -1584,7 +1587,7 @@ $Panel4.Controls.Add($CheckBoxwinrar)
 $Panel4.Controls.Add($CheckBoxpeazip)
 $Panel4.Controls.Add($CheckBox7zip)
 $Panel4.Controls.Add($Label5)
-$Panel4.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]229))
+$Panel4.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]255))
 $Panel4.Name = [System.String]'Panel4'
 $Panel4.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]113))
 $Panel4.TabIndex = [System.Int32]4
@@ -1637,7 +1640,7 @@ $Label5.UseCompatibleTextRendering = $true
 $Panel3.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
 $Panel3.Controls.Add($CheckBoxqbittorrent)
 $Panel3.Controls.Add($Label4)
-$Panel3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]166))
+$Panel3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]192))
 $Panel3.Name = [System.String]'Panel3'
 $Panel3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]57))
 $Panel3.TabIndex = [System.Int32]3
@@ -1706,6 +1709,17 @@ $Button1.Text = [System.String]'Install'
 $Button1.UseCompatibleTextRendering = $true
 $Button1.UseVisualStyleBackColor = $true
 #
+#CheckBoxedge
+#
+$CheckBoxedge.ForeColor = [System.Drawing.Color]::White
+$CheckBoxedge.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]116))
+$CheckBoxedge.Name = [System.String]'CheckBoxedge'
+$CheckBoxedge.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]148,[System.Int32]24))
+$CheckBoxedge.TabIndex = [System.Int32]4
+$CheckBoxedge.Text = [System.String]'Edge'
+$CheckBoxedge.UseCompatibleTextRendering = $true
+$CheckBoxedge.UseVisualStyleBackColor = $true
+#
 #Form1
 #
 $Form1.AutoScroll = $true
@@ -1737,6 +1751,7 @@ $Panel3.ResumeLayout($false)
 $Form1.ResumeLayout($false)
 Add-Member -InputObject $Form1 -Name base -Value $base -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel1 -Value $Panel1 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxedge -Value $CheckBoxedge -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxfirefox -Value $CheckBoxfirefox -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxoperaChromium -Value $CheckBoxoperaChromium -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxChrome -Value $CheckBoxChrome -MemberType NoteProperty

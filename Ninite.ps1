@@ -19,6 +19,9 @@ function Install-Button{
     if ($CheckBoxfirefox.Checked){
         $Link= $Link +  "-firefox"
     }
+    if ($CheckBoxedge.Checked){
+        $Link= $Link +  "-edge"
+    }
     if ($CheckBoxqbittorrent.Checked){
         $Link= $Link +  "-qbittorrent"
     }
@@ -30,6 +33,9 @@ function Install-Button{
     }
     if ($CheckBoxwinrar.Checked){
         $Link= $Link +  "-winrar"
+    }
+    if ($CheckBoxzoom.Checked){
+        $Link= $Link +  "-zoom"
     }
     if ($CheckBoxdiscord.Checked){
         $Link= $Link +  "-discord"
@@ -298,6 +304,70 @@ function Install-Button{
     .\Install.exe
 }
 
+#Tooltips for CheckBoxes
 $tooltip = New-Object System.Windows.Forms.ToolTip
+#Web Browsers
+$tooltip.SetToolTip($CheckBoxChrome,"Browser by Google")
+$tooltip.SetToolTip($CheckBoxoperaChromium,"Browser by Opera Software")
+$tooltip.SetToolTip($CheckBoxfirefox,"Browser by Mozilla")
+$tooltip.SetToolTip($CheckBoxedge,"Browser by Microsoft")
+#File Sharing
+$tooltip.SetToolTip($CheckBoxqbittorrent,"Free Bittorrent Client")
+#Compression
+$tooltip.SetToolTip($CheckBox7zip,"Great Compression App")
+$tooltip.SetToolTip($CheckBoxpeazip,"File Compression Tool")
+$tooltip.SetToolTip($CheckBoxwinrar,"Another Compression Tool (Trial)")
+#Messaging
+$tooltip.SetToolTip($CheckBoxzoom,"Video Conference")
+$tooltip.SetToolTip($CheckBoxdiscord,"Voice and Text Chat")
+$tooltip.SetToolTip($CheckBoxskype,"Internet Telephone")
+$tooltip.SetToolTip($CheckBoxpidgin,"Multi-IM Client")
+$tooltip.SetToolTip($CheckBoxthunderbird,"Email Reader by Mozilla")
+$tooltip.SetToolTip($CheckBoxtrillian,"Trillian IM")
+#Online Storage
+$tooltip.SetToolTip($CheckBoxdropbox,"Online Backup/File Sync")
+$tooltip.SetToolTip($CheckBoxgooglebackupandsync,"Online Backup/File Sync")
+$tooltip.SetToolTip($CheckBoxonedrive,"Online File Sync by Microsoft")
+$tooltip.SetToolTip($CheckBoxsugarsync,"Online Backup/File Sync")
+#Media
+$tooltip.SetToolTip($CheckBoxitunes,"Music/Media Manager")
+$tooltip.SetToolTip($CheckBoxvlc,"Great Video Player")
+$tooltip.SetToolTip($CheckBoxaimp,"Music Player")
+$tooltip.SetToolTip($CheckBoxfoobar,"Music Player")
+$tooltip.SetToolTip($CheckBoxwinamp,"Music Player")
+$tooltip.SetToolTip($CheckBoxmusicbee,"Music Manager & Player")
+$tooltip.SetToolTip($CheckBoxaudacity,"Audio Editor")
+$tooltip.SetToolTip($CheckBoxklitecodecs,"Video decoders plus Media Player Classic")
+$tooltip.SetToolTip($CheckBoxgom,"Video Player")
+$tooltip.SetToolTip($CheckBoxspotify,"Online Music Service")
+$tooltip.SetToolTip($CheckBoxcccp,"Video decoders plus MPC")
+$tooltip.SetToolTip($CheckBoxmediamonkey,"Music Organizer")
+$tooltip.SetToolTip($CheckBoxhandbrake,"Convert Videos (requires .NET 4.7.1)")
+#Runtimes
+$tooltip.SetToolTip($CheckBoxadoptjavax8,"64-bit Java Runtime (JRE)")
+$tooltip.SetToolTip($CheckBoxadoptjava8,"32-bit Java Runtime (JRE)")
+$tooltip.SetToolTip($CheckBoxadoptjavax11,"64-bit Java Runtime (JRE)")
+$tooltip.SetToolTip($CheckBoxnet48,"Microsoft .NET 4.8")
+$tooltip.SetToolTip($CheckBoxsilverlight,"Microsoft Silverlight")
+$tooltip.SetToolTip($CheckBoxair,"Adobe Integrated Runtime (End of Life)")
+#Other
+$tooltip.SetToolTip($CheckBoxevernote,"Online Notes")
+$tooltip.SetToolTip($CheckBoxgoogleearth,"Online Atlas by Google")
+$tooltip.SetToolTip($CheckBoxsteam,"App Store for Games")
+$tooltip.SetToolTip($CheckBoxkeepass2,"Password Manager")
+$tooltip.SetToolTip($CheckBoxeverything,"Local File Search Engine")
+$tooltip.SetToolTip($CheckBoxnvda,"Screen Reader")
+#Imaging
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+$tooltip.SetToolTip($CheckBox1,"")
+
+
 
 $Form1.ShowDialog()
