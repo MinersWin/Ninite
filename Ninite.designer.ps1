@@ -18,7 +18,7 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBoxwinmerge = $null
 [System.Windows.Forms.CheckBox]$CheckBoxputty = $null
 [System.Windows.Forms.CheckBox]$CheckBoxwinscp = $null
-[System.Windows.Forms.CheckBox]$CheckBox79 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxcorrettojdk8 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjdk82 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxnotepadplusplus = $null
 [System.Windows.Forms.CheckBox]$CheckBoxfilezilla = $null
@@ -126,8 +126,9 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Button]$Button1 = $null
 function InitializeComponent
 {
-$resources = . (Join-Path $PSScriptRoot 'ninite.resources.ps1')
+$resources = . (Join-Path $PSScriptRoot 'Ninite.resources.ps1')
 $Panel1 = (New-Object -TypeName System.Windows.Forms.Panel)
+$CheckBoxedge = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxfirefox = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxoperaChromium = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxChrome = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -145,7 +146,7 @@ $CheckBoxeclipse = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxwinmerge = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxputty = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxwinscp = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBox79 = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxcorrettojdk8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjdk82 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxnotepadplusplus = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxfilezilla = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -251,7 +252,6 @@ $Label2 = (New-Object -TypeName System.Windows.Forms.Label)
 $Label1 = (New-Object -TypeName System.Windows.Forms.Label)
 $Button2 = (New-Object -TypeName System.Windows.Forms.Button)
 $Button1 = (New-Object -TypeName System.Windows.Forms.Button)
-$CheckBoxedge = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Panel1.SuspendLayout()
 $Panel2.SuspendLayout()
 $Panel14.SuspendLayout()
@@ -280,6 +280,17 @@ $Panel1.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([S
 $Panel1.Name = [System.String]'Panel1'
 $Panel1.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]143))
 $Panel1.TabIndex = [System.Int32]0
+#
+#CheckBoxedge
+#
+$CheckBoxedge.ForeColor = [System.Drawing.Color]::White
+$CheckBoxedge.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]116))
+$CheckBoxedge.Name = [System.String]'CheckBoxedge'
+$CheckBoxedge.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]148,[System.Int32]24))
+$CheckBoxedge.TabIndex = [System.Int32]4
+$CheckBoxedge.Text = [System.String]'Edge'
+$CheckBoxedge.UseCompatibleTextRendering = $true
+$CheckBoxedge.UseVisualStyleBackColor = $true
 #
 #CheckBoxfirefox
 #
@@ -365,7 +376,7 @@ $Panel14.Controls.Add($CheckBoxeclipse)
 $Panel14.Controls.Add($CheckBoxwinmerge)
 $Panel14.Controls.Add($CheckBoxputty)
 $Panel14.Controls.Add($CheckBoxwinscp)
-$Panel14.Controls.Add($CheckBox79)
+$Panel14.Controls.Add($CheckBoxcorrettojdk8)
 $Panel14.Controls.Add($CheckBoxadoptjdk82)
 $Panel14.Controls.Add($CheckBoxnotepadplusplus)
 $Panel14.Controls.Add($CheckBoxfilezilla)
@@ -498,16 +509,16 @@ $CheckBoxwinscp.Text = [System.String]'WinSCP'
 $CheckBoxwinscp.UseCompatibleTextRendering = $true
 $CheckBoxwinscp.UseVisualStyleBackColor = $true
 #
-#CheckBox79
+#CheckBoxcorrettojdk8
 #
-$CheckBox79.ForeColor = [System.Drawing.Color]::White
-$CheckBox79.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]295))
-$CheckBox79.Name = [System.String]'CheckBox79'
-$CheckBox79.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]168,[System.Int32]32))
-$CheckBox79.TabIndex = [System.Int32]6
-$CheckBox79.Text = [System.String]'JDK (Amazon Corretto) 8'
-$CheckBox79.UseCompatibleTextRendering = $true
-$CheckBox79.UseVisualStyleBackColor = $true
+$CheckBoxcorrettojdk8.ForeColor = [System.Drawing.Color]::White
+$CheckBoxcorrettojdk8.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]295))
+$CheckBoxcorrettojdk8.Name = [System.String]'CheckBoxcorrettojdk8'
+$CheckBoxcorrettojdk8.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]168,[System.Int32]32))
+$CheckBoxcorrettojdk8.TabIndex = [System.Int32]6
+$CheckBoxcorrettojdk8.Text = [System.String]'JDK (Amazon Corretto) 8'
+$CheckBoxcorrettojdk8.UseCompatibleTextRendering = $true
+$CheckBoxcorrettojdk8.UseVisualStyleBackColor = $true
 #
 #CheckBoxadoptjdk82
 #
@@ -1709,17 +1720,6 @@ $Button1.Text = [System.String]'Install'
 $Button1.UseCompatibleTextRendering = $true
 $Button1.UseVisualStyleBackColor = $true
 #
-#CheckBoxedge
-#
-$CheckBoxedge.ForeColor = [System.Drawing.Color]::White
-$CheckBoxedge.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]116))
-$CheckBoxedge.Name = [System.String]'CheckBoxedge'
-$CheckBoxedge.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]148,[System.Int32]24))
-$CheckBoxedge.TabIndex = [System.Int32]4
-$CheckBoxedge.Text = [System.String]'Edge'
-$CheckBoxedge.UseCompatibleTextRendering = $true
-$CheckBoxedge.UseVisualStyleBackColor = $true
-#
 #Form1
 #
 $Form1.AutoScroll = $true
@@ -1769,7 +1769,7 @@ Add-Member -InputObject $Form1 -Name CheckBoxeclipse -Value $CheckBoxeclipse -Me
 Add-Member -InputObject $Form1 -Name CheckBoxwinmerge -Value $CheckBoxwinmerge -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxputty -Value $CheckBoxputty -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxwinscp -Value $CheckBoxwinscp -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBox79 -Value $CheckBox79 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxcorrettojdk8 -Value $CheckBoxcorrettojdk8 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjdk82 -Value $CheckBoxadoptjdk82 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxnotepadplusplus -Value $CheckBoxnotepadplusplus -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxfilezilla -Value $CheckBoxfilezilla -MemberType NoteProperty
