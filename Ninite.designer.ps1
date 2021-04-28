@@ -12,7 +12,7 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjdkx112 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjdkx82 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxphyton = $null
-[System.Windows.Forms.CheckBox]$CheckBoxpythonx3 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxphytonx3 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxvscode = $null
 [System.Windows.Forms.CheckBox]$CheckBoxeclipse = $null
 [System.Windows.Forms.CheckBox]$CheckBoxwinmerge = $null
@@ -22,7 +22,7 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjdk82 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxnotepadplusplus = $null
 [System.Windows.Forms.CheckBox]$CheckBoxfilezilla = $null
-[System.Windows.Forms.CheckBox]$CheckBoxpython3 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxphyton3 = $null
 [System.Windows.Forms.Label]$Label15 = $null
 [System.Windows.Forms.Panel]$Panel13 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxsuper = $null
@@ -140,7 +140,7 @@ $CheckBoxcorrettojdkx8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjdkx112 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjdkx82 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxphyton = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxpythonx3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxphytonx3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxvscode = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxeclipse = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxwinmerge = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -150,7 +150,7 @@ $CheckBoxcorrettojdk8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjdk82 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxnotepadplusplus = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxfilezilla = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxpython3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxphyton3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label15 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel13 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBoxsuper = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -370,7 +370,7 @@ $Panel14.Controls.Add($CheckBoxcorrettojdkx8)
 $Panel14.Controls.Add($CheckBoxadoptjdkx112)
 $Panel14.Controls.Add($CheckBoxadoptjdkx82)
 $Panel14.Controls.Add($CheckBoxphyton)
-$Panel14.Controls.Add($CheckBoxpythonx3)
+$Panel14.Controls.Add($CheckBoxphytonx3)
 $Panel14.Controls.Add($CheckBoxvscode)
 $Panel14.Controls.Add($CheckBoxeclipse)
 $Panel14.Controls.Add($CheckBoxwinmerge)
@@ -380,7 +380,7 @@ $Panel14.Controls.Add($CheckBoxcorrettojdk8)
 $Panel14.Controls.Add($CheckBoxadoptjdk82)
 $Panel14.Controls.Add($CheckBoxnotepadplusplus)
 $Panel14.Controls.Add($CheckBoxfilezilla)
-$Panel14.Controls.Add($CheckBoxpython3)
+$Panel14.Controls.Add($CheckBoxphyton3)
 $Panel14.Controls.Add($Label15)
 $Panel14.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]1165,[System.Int32]43))
 $Panel14.Name = [System.String]'Panel14'
@@ -438,21 +438,21 @@ $CheckBoxphyton.Location = (New-Object -TypeName System.Drawing.Point -ArgumentL
 $CheckBoxphyton.Name = [System.String]'CheckBoxphyton'
 $CheckBoxphyton.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
 $CheckBoxphyton.TabIndex = [System.Int32]13
-$CheckBoxphyton.Text = [System.String]'Python'
+$CheckBoxphyton.Text = [System.String]'phyton'
 $CheckBoxphyton.UseCompatibleTextRendering = $true
 $CheckBoxphyton.UseVisualStyleBackColor = $true
 #
-#CheckBoxpythonx3
+#CheckBoxphytonx3
 #
-$CheckBoxpythonx3.ForeColor = [System.Drawing.Color]::White
-$CheckBoxpythonx3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]25))
-$CheckBoxpythonx3.Name = [System.String]'CheckBoxpythonx3'
-$CheckBoxpythonx3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]24))
-$CheckBoxpythonx3.TabIndex = [System.Int32]12
-$CheckBoxpythonx3.Text = [System.String]'Phyton x64 3'
-$CheckBoxpythonx3.UseCompatibleTextRendering = $true
-$CheckBoxpythonx3.UseVisualStyleBackColor = $true
-$CheckBoxpythonx3.add_CheckedChanged($CheckBoxpythonx3_CheckedChanged)
+$CheckBoxphytonx3.ForeColor = [System.Drawing.Color]::White
+$CheckBoxphytonx3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]25))
+$CheckBoxphytonx3.Name = [System.String]'CheckBoxphytonx3'
+$CheckBoxphytonx3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]24))
+$CheckBoxphytonx3.TabIndex = [System.Int32]12
+$CheckBoxphytonx3.Text = [System.String]'Phyton x64 3'
+$CheckBoxphytonx3.UseCompatibleTextRendering = $true
+$CheckBoxphytonx3.UseVisualStyleBackColor = $true
+$CheckBoxphytonx3.add_CheckedChanged($CheckBoxphytonx3_CheckedChanged)
 #
 #CheckBoxvscode
 #
@@ -553,16 +553,16 @@ $CheckBoxfilezilla.Text = [System.String]'FileZilla'
 $CheckBoxfilezilla.UseCompatibleTextRendering = $true
 $CheckBoxfilezilla.UseVisualStyleBackColor = $true
 #
-#CheckBoxpython3
+#CheckBoxphyton3
 #
-$CheckBoxpython3.ForeColor = [System.Drawing.Color]::White
-$CheckBoxpython3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
-$CheckBoxpython3.Name = [System.String]'CheckBoxpython3'
-$CheckBoxpython3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
-$CheckBoxpython3.TabIndex = [System.Int32]1
-$CheckBoxpython3.Text = [System.String]'Python 3'
-$CheckBoxpython3.UseCompatibleTextRendering = $true
-$CheckBoxpython3.UseVisualStyleBackColor = $true
+$CheckBoxphyton3.ForeColor = [System.Drawing.Color]::White
+$CheckBoxphyton3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
+$CheckBoxphyton3.Name = [System.String]'CheckBoxphyton3'
+$CheckBoxphyton3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
+$CheckBoxphyton3.TabIndex = [System.Int32]1
+$CheckBoxphyton3.Text = [System.String]'phyton 3'
+$CheckBoxphyton3.UseCompatibleTextRendering = $true
+$CheckBoxphyton3.UseVisualStyleBackColor = $true
 #
 #Label15
 #
@@ -1763,7 +1763,7 @@ Add-Member -InputObject $Form1 -Name CheckBoxcorrettojdkx8 -Value $CheckBoxcorre
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjdkx112 -Value $CheckBoxadoptjdkx112 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjdkx82 -Value $CheckBoxadoptjdkx82 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxphyton -Value $CheckBoxphyton -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxpythonx3 -Value $CheckBoxpythonx3 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxphytonx3 -Value $CheckBoxphytonx3 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxvscode -Value $CheckBoxvscode -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxeclipse -Value $CheckBoxeclipse -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxwinmerge -Value $CheckBoxwinmerge -MemberType NoteProperty
@@ -1773,7 +1773,7 @@ Add-Member -InputObject $Form1 -Name CheckBoxcorrettojdk8 -Value $CheckBoxcorret
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjdk82 -Value $CheckBoxadoptjdk82 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxnotepadplusplus -Value $CheckBoxnotepadplusplus -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxfilezilla -Value $CheckBoxfilezilla -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxpython3 -Value $CheckBoxpython3 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxphyton3 -Value $CheckBoxphyton3 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label15 -Value $Label15 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel13 -Value $Panel13 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxsuper -Value $CheckBoxsuper -MemberType NoteProperty
