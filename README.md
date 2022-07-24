@@ -12,7 +12,7 @@ What things you need to install the software and how to install them
 
 ```
 PowerShell Core 5.0 (pre-installed in Windows 7 or higher)
-.Net-Framework 3.5 (in den meisten Windows 10 Versionen vorinstalliert)
+.Net-Framework 3.5 (pre-installed in most Windows 10 installations)
 Internet Explorer 9 or higher
 ```
 Powershell Installation for Win 7/8/8.1: https://forum.thegeekfreaks.de/forum/index.php?thread/93-faq-das-tuningpack-startet-nicht-ich-nutze-windows-7-8-8-1/
